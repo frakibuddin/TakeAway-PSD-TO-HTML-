@@ -28,6 +28,9 @@
   }
 }
 @media (max-width: 500px) {
+  html {
+    font-size: 59%;
+  }
   .logo img {
     width: 12rem;
   }
