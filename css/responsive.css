@@ -31,4 +31,7 @@
   .logo img {
     width: 12rem;
   }
+  .cart-btn {
+    gap: 1.5rem;
+  }
 }
