@@ -42,19 +42,21 @@ body {
   font-size: 1.5rem;
 }
 .form-control {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
+  font-family: MYRIADPRO-REGULAR;
 }
 .MYRIADPRO-SEMIBOLD {
   font-family: MYRIADPRO-SEMIBOLD;
 }
 .heading {
-  font-size: 3rem;
+  font-size: 3.2rem;
   font-family: ClashGrotesk-Semibold;
   margin: 2rem 0;
 }
 .light-text {
   font-family: ClashGrotesk-Regular;
   font-size: 1.8rem;
+  color: #606060;
 }
 .section-heading {
   font-family: ClashGrotesk-Semibold;
@@ -162,9 +164,12 @@ ul {
   gap: 1rem;
   border-radius: 0.5rem;
   margin: 1rem;
-  width: 24rem;
+  flex-wrap: wrap;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+.timeline div {
+  flex-basis: 45%;
 }
 .timeline span {
   font-family: ClashGrotesk-Medium;
@@ -175,11 +180,7 @@ ul {
   border-radius: 0.5rem;
   display: block;
 }
-.timeline span:last-child,
-.b-left {
-  border-left: 0.1rem solid #e0e0e0;
-  padding-left: 0.6rem;
-}
+
 .timeline h3 {
   font-family: ClashGrotesk-Medium;
 }
@@ -195,7 +196,9 @@ ul {
   justify-content: space-between;
   gap: 2rem;
 }
-
+.rating-image {
+  width: 15rem;
+}
 /* feature-section */
 .feature-section {
   padding-top: 6rem;
@@ -225,7 +228,7 @@ ul {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 4rem 2rem;
   border-radius: 2rem;
   margin-bottom: 1rem;
 }
@@ -295,14 +298,17 @@ ul {
 }
 .new-item h2 {
   font-family: MYRIADPRO-SEMIBOLD;
+  font-size: 1.8rem;
 }
 .new-item p {
   font-family: MYRIADPRO-REGULAR;
   color: #606060;
+  font-size: 1.6rem;
 }
 .accordion-button {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   padding: 2rem 1.25rem;
+  font-family: ClashGrotesk-Medium;
 }
 .accordion-button:not(.collapsed) {
   background-color: #e0e0e0;
@@ -370,6 +376,7 @@ footer {
   padding: 1rem;
   position: relative;
   z-index: 99;
+  font-size: 1.7rem;
 }
 .navigation li a.active {
   border-bottom: 0.5rem solid #000000;
