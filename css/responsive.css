@@ -27,3 +27,8 @@
     flex-wrap: wrap;
   }
 }
+@media (max-width: 500px) {
+  .logo img {
+    width: 12rem;
+  }
+}
